@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.register{
+    width: 260px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;   
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(255,102,196);
+    background: linear-gradient(90deg, rgba(255,102,196,0.5) 0%, rgba(255,222,89,0.5) 100%);
+}
+.login{
+    margin: auto;
+    width: 360px;
+    height: 160px;
+    border-style:solid; 
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(255,102,196);
+    background: linear-gradient(90deg, rgba(255,102,196,0.5) 0%, rgba(255,222,89,0.5) 100%);
+}
+input{
+    width: 225px;
+    text-align: center;
+    border-radius: 5px;
+}
+.variola{
+    width: 150px;
+    background-color: coral;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+.gordo{
+    cursor: pointer;
+    color: #FF66C4;
+}
+.gordo:hover{
+    cursor: pointer;
+    color: purple;
+}
+.gemas{
+    background-color: coral;
+    width: 75px;
+    height: 25px;
+    border-radius: 12px;
+    cursor: pointer
+}
+.gemas:hover{
+    background-color: palevioletred;
+}
+.variola:hover{
+    background-color: palevioletred;
+}
+body{
+    background: url("fotos/Graphic\ design\ is\ my\ passion.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    text-align: center;
+    align-content: center;
+}
+h1{
+    font-size: 75px;
+    height: 100px;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+.cadastra{
+    background-color: coral;
+    border-radius: 10px;
+    cursor: pointer
+}
+.cadastra:hover{
+    background-color: palevioletred;
+}
+.text{
+    border-radius: 200px;
+}
+.gomus{
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: #e67e22;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #d35400;
+    transition: all .1s;
+    cursor: pointer;
+}
+   
+.gomus:active {
+    box-shadow: 0px 2px 0px #d35400;
+    position: relative;
+    top: 2px;
+}
+.gomus:hover{
+    color: #ecf0f1;
+    font-size: 17px;
+    background-color: palevioletred;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px black;
+    transition: all .1s;
+}
+.g{
+    background:url(fotos/doppel\ g.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.gominus{
+    font-family: 'Lobster', cursive;
+    color: azure;
+}
+iframe{
+    position: relative;
+    top: 10px;
+    border: none;
+}
+    
